@@ -3,14 +3,12 @@
 A collection of machine learning projects & experiments, built and prototyped in Google Colab 🚀
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
-![NumPy](https://img.shields.io/badge/NumPy-lightgrey)
-![Pandas](https://img.shields.io/badge/Pandas-lightgrey)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-lightgrey)
-![Seaborn](https://img.shields.io/badge/Seaborn-lightgrey)
+![NumPy](https://img.shields.io/badge/NumPy-grey)
+![Pandas](https://img.shields.io/badge/Pandas-grey)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-grey)
+![Seaborn](https://img.shields.io/badge/Seaborn-grey)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-orange)
-![Colab](https://img.shields.io/badge/Made%20in-Colab-yellow)
-![License](https://img.shields.io/badge/License-Not%20specified-lightgrey)
-![Last Commit](https://img.shields.io/github/last-commit/procoder369/ML-Projects)
+![Made in Colab](https://img.shields.io/badge/Made%20in-Colab-yellow)
 
 ## 📖 Overview
 
@@ -18,7 +16,7 @@ ML-Projects is a growing portfolio of hands-on machine learning implementations,
 
 ## ✨ Features
 
-- 🧹 End-to-end workflows: preprocessing → training → evaluation → visualization
+- 🧪 End-to-end workflows: preprocessing → training → evaluation → visualization
 - 🔍 Exploratory Data Analysis (EDA) with seaborn/matplotlib
 - 🎯 Hyperparameter tuning via GridSearchCV
 - 📊 Clear performance metrics for every model
@@ -26,72 +24,32 @@ ML-Projects is a growing portfolio of hands-on machine learning implementations,
 
 ## 📚 Notebooks
 
-| 📓 Notebook | 📝 Description | 🎯 Result |
-|---|---|---|
-| `Linear_Regression.ipynb` | Linear regression — preprocessing, training, evaluation & visualization | — |
-| `logistic_regression.ipynb` | Logistic regression on the Iris dataset (binary: versicolor vs. virginica) — EDA, GridSearchCV tuning, live prediction | 93.9% test accuracy |
-| `naive_bayes.ipynb` | Naive Bayes classification — preprocessing, training & evaluation | — |
-| `digit_recognition.ipynb` | Handwritten digit classification using K-Nearest Neighbors (KNN) on the sklearn digits dataset — EDA, k selection via cross-validation, confusion matrix | 98% test accuracy|
-
-> Update the "Result" column with your actual metrics from each notebook as you finalize them.
-
-## 🗂️ Project Structure
-
-```
-ML-Projects/
-├── Linear_Regression.ipynb
-├── logistic_regression.ipynb
-├── naive_bayes.ipynb
-├── digit_recognition.ipynb
-├── .gitattributes
-└── README.md
-```
+| Notebook | Description |
+|---|---|
+| [`Linear_Regression.ipynb`](./Linear_Regression.ipynb) | Predicting continuous values using linear regression |
+| [`logistic_regression.ipynb`](./logistic_regression.ipynb) | Binary classification using logistic regression |
+| [`naive_bayes.ipynb`](./naive_bayes.ipynb) | Probabilistic classification using Naive Bayes |
+| [`svm.ipynb`](./svm.ipynb) | Classification using Support Vector Machines, including decision boundary visualization |
+| [`digit_recognition.ipynb`](./digit_recognition.ipynb) | Handwritten digit classification |
 
 ## 🛠️ Tech Stack
 
-Python · NumPy · Pandas · Matplotlib · Seaborn · scikit-learn · Jupyter / Google Colab
+- **Language:** Python 3.x
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, scikit-learn
+- **Environment:** Google Colab
 
-## ⚡ Quick Start
+## 🚀 Getting Started
 
-```bash
-# Clone the repository
-git clone https://github.com/procoder369/ML-Projects.git
-cd ML-Projects
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/procoder369/ML-Projects.git
+   ```
+2. Open any notebook directly in [Google Colab](https://colab.research.google.com/), or run locally with Jupyter:
+   ```bash
+   pip install -r requirements.txt
+   jupyter notebook
+   ```
 
-# Install dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn
+## 🙋 Author
 
-# Launch Jupyter
-jupyter notebook
-```
-
-Or open any notebook directly in Google Colab — no local setup required.
-
-## 🛣️ Roadmap
-
-- [x] Add more algorithms (KNN ✅, decision trees, random forests, SVM)
-- [ ] Include sample datasets in the repo
-- [ ] Add `requirements.txt` for reproducible environments
-- [x] Add confusion matrix / ROC-AUC visualizations (KNN notebook)
-- [ ] Deploy a demo model with Streamlit or Gradio
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/new-model`)
-3. Commit your changes
-4. Open a pull request
-
-## 📄 License
-
-No license currently specified. Consider adding one (e.g., MIT) if you plan to open-source this work.
-
-## 📬 Contact
-
-Piush Adhikari · [GitHub](https://github.com/procoder369)
-
----
-
-⭐️ If this repo helped you, consider giving it a star!
+**procoder369**
