@@ -31,6 +31,7 @@ ML-Projects is a growing portfolio of hands-on machine learning implementations,
 | [`naive_bayes.ipynb`](./naive_bayes.ipynb) | Probabilistic classification using Naive Bayes |
 | [`svm.ipynb`](./svm.ipynb) | Classification using Support Vector Machines, including decision boundary visualization |
 | [`Dessiontreeclassifier(postpruning).ipynb`](./Dessiontreeclassifier%28postpruning%29.ipynb) | Decision Tree classification with post-pruning to control overfitting and improve generalization |
+| [`decisiontree_regressoripynb.ipynb`](./decisiontree_regressoripynb.ipynb) | Predicting continuous values using a Decision Tree Regressor |
 | [`digit_recognition.ipynb`](./digit_recognition.ipynb) | Handwritten digit classification |
 
 
